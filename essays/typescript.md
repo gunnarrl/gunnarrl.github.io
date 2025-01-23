@@ -19,6 +19,4 @@ What I don’t like as much is how structured it is. I’m used to quickly exper
 
 Overall, while I don’t love TypeScript personally, I can see why it’s so popular. The way it catches bugs before runtime and its strong tooling make it a solid choice for bigger teams and complex codebases. For me, it’s all about finding the right tool for the job.
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
 
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
