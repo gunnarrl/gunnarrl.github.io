@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/function/ieee-logo.png
+image: img/checkers.jpg
 title: "Checkers vs. AI"
 date: 2024
 published: true
