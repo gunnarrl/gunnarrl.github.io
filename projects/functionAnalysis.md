@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/function/ieee-logo.png
 title: "Function Analysis"
 date: 2024
 published: true
