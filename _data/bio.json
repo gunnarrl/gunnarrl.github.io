@@ -23,19 +23,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python", "R" ]
+      "keywords": [ "C", "Java", "Python", "SQL", "JavaScript", "HTML/CSS", "R" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Libraries",
+      "keywords": [ "pandas", "NumPy", "Matplotlib", "TensorFlow", "Sci-kit Learn", "sqLite3", "jQuery" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2023-09-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -43,27 +43,39 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "ISquare Lab",
+      "position": "Research Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2024-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Conducting a research project evaluating how LLM's can be used for automated code review",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Fine-tuning LLMs to be used for automated code reviews of data science projects",
+        "Analyzing qualitative and quantitative feedback from experienced developers on LLM-generated code, then presenting findings at UROP symposium"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "UH Department of Tropical Soil Sciences",
+      "position": "Research Intern",
+      "website": "",
+      "startDate": "2014-06-01",
+      "endDate": "2024-08-03",
+      "summary": "Collaborated in a team researching maize seedlings under varying environmental conditions",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Took daily measurements of the plants, along with termination data to form a dataset",
+        "Did a statistical analysis and shared our findings at the SURE Symposium"
+      ]
+    },
+    {
+      "company": "Ohana Surf Project",
+      "position": "Surf Instructor",
+      "website": "",
+      "startDate": "2023-10-01",
+      "endDate": "Present",
+      "summary": "Collaborated in a team researching maize seedlings under varying environmental conditions",
+      "highlights": [
+        "Teach surfing techniques and safety to beginners, building strong communication and leadership skills",
+        "Manage groups of students, ensuring safety and high-quality customer service while maintaining an engaging learning environment"
       ]
     }
   ],
@@ -96,16 +108,16 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Merit Scholarship",
+      "date": "2023-Present",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen based off their high school GPA"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "UROP Project Grant",
+      "date": "2025",
+      "awarder": "University of Hawaii",
+      "summary": "I was awarded a grant to help me complete my research project on LLM's for automated code review"
     }
   ],
   "references": [
