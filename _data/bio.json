@@ -62,8 +62,9 @@
       "endDate": "2024-08-03",
       "summary": "Collaborated in a team researching maize seedlings under varying environmental conditions",
       "highlights": [
-        "Took daily measurements of the plants, along with termination data to form a dataset",
-        "Did a statistical analysis and shared our findings at the SURE Symposium"
+        "Collected experimental data and analyzed it using r and sci-kit learn to develop machine-learning models (SVM, Random Forest, CNN) and conducted statistical analysis for optimal seed selection in diverse environments",
+        "Worked on and presented multiple posters at the SURE summer symposium, finding significant growth differences between genotypes under drought conditions; peer-reviewed journal publication in preparation",
+        "Constructed a data dashboard that can be used to automate hyper-parameter tuning for similar datasets, enabling people with different backgrounds to utilize machine learning"
       ]
     },
     {
