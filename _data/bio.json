@@ -58,7 +58,7 @@
       "company": "UH Department of Tropical Soil Sciences",
       "position": "Research Intern",
       "website": "",
-      "startDate": "2014-06-01",
+      "startDate": "2024-06-01",
       "endDate": "2024-08-03",
       "summary": "Collaborated in a team researching maize seedlings under varying environmental conditions",
       "highlights": [
@@ -72,37 +72,10 @@
       "website": "",
       "startDate": "2023-10-01",
       "endDate": "Present",
-      "summary": "Collaborated in a team researching maize seedlings under varying environmental conditions",
+      "summary": "Teaching surf lessons to people of all ages",
       "highlights": [
         "Teach surfing techniques and safety to beginners, building strong communication and leadership skills",
         "Manage groups of students, ensuring safety and high-quality customer service while maintaining an engaging learning environment"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
