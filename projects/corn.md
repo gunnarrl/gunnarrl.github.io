@@ -12,7 +12,7 @@ labels:
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/maize-poster.png">
 
 In this project, I worked as part of a team to take daily measurements of Maize seedlings under different simulated environmental conditions. Once the dataset showed plants stopped growing we terminated them and took final 
 root/shoot measurements. This entire process took around 1 month and taught me a lot about how to conduct an experiment and how to adapt when unexpected things happen. For example this group of seedlings started growing
