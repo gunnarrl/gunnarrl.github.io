@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/maize.jpg
 title: "Maize Research"
 date: 2024
 published: true
