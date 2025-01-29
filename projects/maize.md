@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /img/maize.png
+image: img/maize.png
 title: "Maize Research"
 date: 2024
 published: true
@@ -12,9 +12,7 @@ labels:
 summary: "Worked in a team to expand a Maize Growth Dataset and conducted data analysis on it."
 ---
 
-<div class="text-center">
-  <img width="800px" src="/img/agro-Synergy.png" class="img-thumbnail" >
-</div>
+<img class="img-fluid" src="../img/agro-Synergy.png">
 
 In this project, I worked as part of a team to take daily measurements of Maize seedlings under different simulated environmental conditions. Once the dataset showed plants stopped growing we terminated them and took final 
 root/shoot measurements. This entire process took around 1 month and taught me a lot about how to conduct an experiment and how to adapt when unexpected things happen. For example this group of seedlings started growing
