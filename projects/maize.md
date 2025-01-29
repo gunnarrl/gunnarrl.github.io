@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/maize.png
+image: /img/maize.png
 title: "Maize Research"
 date: 2024
 published: true
