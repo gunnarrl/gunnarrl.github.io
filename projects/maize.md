@@ -12,7 +12,7 @@ labels:
 summary: "Worked in a team to expand a Maize Growth Dataset and conducted data analysis on it."
 ---
 
-<div class="text-center p-4">
+<div class="text-center">
   <img width="800px" src="../img/agro-Synergy.png" class="img-thumbnail" >
 </div>
 
