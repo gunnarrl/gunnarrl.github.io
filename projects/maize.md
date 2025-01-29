@@ -13,7 +13,7 @@ summary: "Worked in a team to expand a Maize Growth Dataset and conducted data a
 ---
 
 <div class="text-center p-4">
-  <img width="800px" src="../img/agro-Synergy.png" class="img" >
+  <img width="800px" src="../img/agro-Synergy.png" class="img-thumbnail" >
 </div>
 
 In this project, I worked as part of a team to take daily measurements of Maize seedlings under different simulated environmental conditions. Once the dataset showed plants stopped growing we terminated them and took final 
