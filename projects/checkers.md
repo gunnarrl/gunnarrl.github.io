@@ -12,11 +12,7 @@ labels:
 summary: "Created an app where you can play checkers against a friend or varying levels of AI"
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+<img class="img-fluid" src="../img/pygame.png">
 
 This is a checkers app that I made using pygame in python. You can either play against your friends on the same machine or against 3 levels of AI. The AI was made using the minimax algorithm with varying levels
 of depth depending on the difficulty. This works well because checkers is not a very complex game so it is reasonable to check all possible move sequences. The project taught me a lot about object-oriented design
