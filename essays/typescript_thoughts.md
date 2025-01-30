@@ -11,7 +11,7 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/typescript.png">
 
-# Thoughts on TypeScript  
+## Thoughts on TypeScript  
 
 TypeScript is an interesting language, but I have mixed feelings about it. Coming from a Python background, I’m used to the flexibility of dynamically-typed languages, and TypeScript’s static typing feels a bit restrictive. That said, I understand how it’s helpful for catching type errors early, especially in bigger projects where those bugs can be harder to track down.  
 
