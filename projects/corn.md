@@ -9,7 +9,7 @@ labels:
   - Data Science
   - Plant Biology
   - R
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+summary: "Worked in a team of researchers to expand a Maize Growth Dataset and conducted data analysis on it."
 ---
 
 <img class="img-fluid" src="../img/maize-poster.png">
