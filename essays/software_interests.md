@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/journey.jpg">
+<img width="300px" class="rounded float-start pe-4" src="../img/journey.jpg">
 
 # My Software Engineering Journey: Passions, Projects, and Future Goals
 
