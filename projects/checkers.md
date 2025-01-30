@@ -19,7 +19,7 @@ of depth depending on the difficulty. This works well because checkers is not a 
 and how to implement it.
 
 The hardest part was turning the minimax algorithm into code, here is the minimax code:
-```
+```python
 def minimax(self, board, depth, alpha, beta, maximizing_player):
         if depth == 0 or board.is_game_over():
             return self.evaluate_board(board), None
