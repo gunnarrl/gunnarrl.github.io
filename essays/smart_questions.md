@@ -34,15 +34,20 @@ Effective communication is a cornerstone of software engineering, and the abilit
 ## Example of a Not-Smart Question: Vagueness Invites Frustration  
 
 **Question:** [*"Error message when using imported library"*](https://stackoverflow.com/questions/57866818/error-message-when-using-imported-library?rq=1)  
-- **Summary:** A user reports a vague `TypeError` when using TensorFlow but omits critical details.  
-- **Not-Smart Attributes:**  
-  - **Ambiguity:** The title lacks specificity (no library name, error type, or use case).  
-  - **Incomplete Context:** The body mentions TensorFlow but omits the version, full error trace, and debugging steps (e.g., compatibility checks).  
-  - **Low Effort:** No attempt to isolate the issue or provide reproducible code.  
-- **Community Response:**  
-  - Answers were speculative (e.g., guessing version incompatibility) and unhelpful.  
-  - A comment requested the full error log, but the asker never responded.  
-  - The thread **lacks a resolution**, highlighting wasted effort for all parties.  
+- **Summary:** A user encounters an `Exception` when using `validate_email` with `check_mx=True`, despite having installed `Py3DNS`. The error claims `pyDNS` is missing, but the user insists it is installed.  
+
+### Key Issues:  
+- **Ambiguous Title:** Fails to mention `validate_email`, `check_mx`, or `Py3DNS`.  
+- **Incomplete Context:**  
+  - No Python version, OS details, or environment info (beyond an Anaconda path hint).  
+  - No steps to verify if `Py3DNS` is accessible in their runtime environment.  
+  - Assumes installation correctness without testing (e.g., environment mismatch).  
+- **Low Reproducibility:** Omits installation method (`pip` vs. `conda`) and dependency checks.  
+
+### Community Response:  
+- **Speculative Answers:**  
+  - Suggests environment mismatch or importing `py3dns` (irrelevant to `validate_email`’s requirements).   
+- **Unresolved:** No follow-up from the asker; thread ends without confirmation of a fix. 
 
 ---
 
