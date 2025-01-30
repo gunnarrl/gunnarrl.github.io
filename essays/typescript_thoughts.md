@@ -24,7 +24,7 @@ calculateTotal("10", 5); // Error: Argument of type 'string' is not assignable t
 This saved me from runtime bugs, especially in complex projects where those errors can be harder to track down.
 
 ## What I Like About TypeScript
-One thing I do appreciate about TypeScript is how it builds on JavaScript. If you know JavaScript, it’s not too hard to pick up. You still get to use what you already know, but with added features like interfaces and type annotations. This makes it easier to write code that’s more reliable and maintainable—a definite plus for software engineering. Using what I know from JavaScript, it’s easy to adopt features like interfaces:
+One thing I do appreciate about TypeScript is how it builds on JavaScript. If you know JavaScript, it’s not too hard to pick up. You still get to use what you already know, but with added features like interfaces and type annotations. This makes it easier to write code that’s more reliable and maintainable, both of which are important for software engineering. Using what I know from JavaScript, it’s easy to adopt features like interfaces:
 
 ```typescript
 interface Product {
@@ -41,7 +41,7 @@ function displayProduct(product: Product) {
 This makes codebases more maintainable, a big plus for team projects.
 
 ## What I Don’t Like
-What I don’t like as much is how structured it is. I’m used to quickly experimenting in Python without worrying about types, so having to define everything upfront in TypeScript can feel like extra work, especially for small projects or prototypes. It’s a trade-off—you give up some speed and flexibility for more safety and clarity in the long run. In Python, I’d write:
+What I don’t like as much is how structured it is. I’m used to quickly experimenting in Python without worrying about types, so having to define everything upfront in TypeScript can feel like extra work, especially for small projects or prototypes. It’s a trade-off where you give up some speed and flexibility for more safety and clarity in the long run. In Python, I’d write:
 
 ```python
 # Python: Just use a dictionary!
