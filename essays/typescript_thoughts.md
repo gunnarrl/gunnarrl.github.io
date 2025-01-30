@@ -1,12 +1,12 @@
 ---
 layout: essay
 type: essay
-title: "My First Opinions on TypeScript"
+title: "The Good and Bad of TypeScript"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
 published: true
 labels:
-  - Coding
+  - Typescript
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/typescript.png">
