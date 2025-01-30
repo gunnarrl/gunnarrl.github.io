@@ -52,5 +52,5 @@ def minimax(self, board, depth, alpha, beta, maximizing_player):
                     break
             return min_eval, best_move
 ```
-
-The project is on my github at https://github.com/gunnarrl/checkers-vs-AI
+This is my implementation of minimax for checkers, using alpha-beta pruning to optimize performance. It recursively explores possible moves up to a given depth (difficulty), evaluating board positions based on a scoring method. The maximizing player tries to find the move with the highest evaluation, while the minimizing player aims for the lowest. Alpha and beta values help prune unnecessary branches (moves), improving efficiency. The function returns the best evaluation score and the corresponding move, allowing the AI to make optimal decisions based on the game state.
+The project is on my github at [Checkers vs AI](https://github.com/gunnarrl/checkers-vs-AI).
