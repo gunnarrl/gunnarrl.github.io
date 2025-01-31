@@ -19,7 +19,7 @@ Effective communication is a cornerstone of software engineering, and the abilit
 
 ## Example of a Smart Question: Clarity and Context Yield Solutions  
 
-**Question:** [*"How do I convert a .ipynb file to a .py file via command line?"*](https://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline)  
+**Question:** When working on my current research project I had to convert a batch of jupyter notebooks to python script and found this question very helpful. [*"How do I convert a .ipynb file to a .py file via command line?"*](https://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline)  
 - **Summary:** The user asks how to convert Jupyter Notebook files (.ipynb) to Python scripts (.py) using the command line, it gathered 450 upvotes.  
 - **Smart Attributes:**  
   - **Specificity:** The title clearly states the goal (file conversion) and environment (command line).  
@@ -33,7 +33,7 @@ Effective communication is a cornerstone of software engineering, and the abilit
 
 ## Example of a Not-Smart Question: Vagueness Invites Frustration  
 
-**Question:** [*"Error message when using imported library"*](https://stackoverflow.com/questions/57866818/error-message-when-using-imported-library?rq=1)  
+**Question:** For an assignment in one of my classes I had a similar issue where an import library was not working properly. When searching for a solution this unhelpful question kept popping up, not helping me at all [*"Error message when using imported library"*](https://stackoverflow.com/questions/57866818/error-message-when-using-imported-library?rq=1)  
 - **Summary:** A user encounters an `Exception` when using `validate_email` with `check_mx=True`, despite having installed `Py3DNS`. The error claims `pyDNS` is missing, but the user insists it is installed.  
 - **Non-Smart Attributes:** 
   - **Ambiguous Title:** Fails to mention `validate_email`, `check_mx`, or `Py3DNS`.  
