@@ -56,7 +56,7 @@ const product: Product = { id: "123", name: "Coffee", price: 4.99 };
 ```
 
 ## Final Thoughts 
-Overall, while I don’t love TypeScript personally, I can see why it’s popular. Catching bugs before runtime and strong tooling make it solid for teams and complex codebases. For me, it’s about using the right tool for the job—TypeScript for structure, Python/Javascript for speed.
+Overall, while I don’t love TypeScript personally, I can see why it’s popular. Catching bugs before runtime make it solid for teams and complex codebases. For me, it’s about using the right tool for the job, TypeScript for structure, Python/Javascript for speed.
 
 
 
