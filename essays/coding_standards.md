@@ -10,7 +10,7 @@ labels:
   - Coding Standards
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/VSCode.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/ESLint.png">
 
 # My Experience with ESLint and Coding Standards
 
