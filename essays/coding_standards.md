@@ -59,7 +59,8 @@ if (num > 5) {
 }
 ```
 
-## Suggested Improvements for ESLint
+## Helpful features in ESLint
+One improvement that significantly enhanced my experience with ESLint was configuring it to automatically fix problems. By enabling this feature, many of my errors were corrected without any manual intervention, which made my code more readable without the extra effort. This automation saved me a lot of time and frustration, allowing me to focus more on the logic of my code rather than its formatting.
 A feature I mentioned earlier that would make ESLint much more useful and easier to use is inline comments for errors. Instead of requiring a mouse hover, an inline comment could instantly show what’s wrong:
 
 ```js
@@ -70,7 +71,7 @@ console.log(x);
 This would speed up the debugging process and make it easier to clean up code without constantly pausing to inspect errors. Instead, you would be able to see and solve the problem immediately.
 
 ## Positive Experience with VSCode
-On the other hand, VSCode itself has been great. The integration with CoPilot makes coding faster and easier, though it did take some time to figure out how to properly run and view TypeScript code output through an HTML file. Installing all the necessary tools and extensions was tedious, but once everything was set up, the experience was smooth.
+On the other hand, VSCode itself has been great. The integration with CoPilot makes coding faster and easier, though it did take some time to figure out how to properly run and view TypeScript code output through an HTML file. Installing all the necessary tools and extensions was tedious, but once everything was set up, the experience was smooth. 
 
 ## Conclusion
 Overall, I see the value in coding standards, but my experience with ESLint has been mixed. Some of its rules make sense and improve code quality, but others just feel like unnecessary hoops to jump through. When it comes to AI-generated code, ESLint can turn what should be a time-saving process into extra work. Still, I recognize that enforcing standards does have long-term benefits, even if it’s frustrating in the moment.
