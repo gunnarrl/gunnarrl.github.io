@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "ESLint"
+title: "Trials and Tribulations of ESLint"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-12
 published: true
@@ -60,7 +60,7 @@ if (num > 5) {
 ```
 
 ## Helpful features in ESLint
-One improvement that significantly enhanced my experience with ESLint was configuring it to automatically fix problems. By enabling this feature, many of my errors were corrected without any manual intervention, which made my code more readable without the extra effort. This automation saved me a lot of time and frustration, allowing me to focus more on the logic of my code rather than its formatting.
+One feature that significantly enhanced my experience with ESLint was configuring it to fix problems automatically. By enabling this feature, many of my errors were corrected without any manual intervention, which made my code more readable without the extra effort. This automation saved me a lot of time and frustration, allowing me to focus more on the logic of my code rather than its formatting.
 A feature I mentioned earlier that would make ESLint much more useful and easier to use is inline comments for errors. Instead of requiring a mouse hover, an inline comment could instantly show what’s wrong:
 
 ```js
