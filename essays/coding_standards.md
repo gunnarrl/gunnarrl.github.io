@@ -23,16 +23,16 @@ Take ESLint, for example. My experience with it so far has been frustrating. Set
 ### Example of Inconsistent Indentation
 For example, ESLint may flag the following as an error due to inconsistent indentation:
 
-```js
-function example() {
+```ts
+function example(): void {
     console.log("Hello, world!");
 }
 ```
 
 It might demand that the indentation be changed to:
 
-```js
-function example() {
+```ts
+function example(): void {
   console.log("Hello, world!");
 }
 ```
@@ -43,27 +43,29 @@ Another issue I’ve run into is ESLint’s interaction with AI-generated code. 
 ### Example of AI-Generated Code
 For instance, most LLMs might generate this:
 
-```js
+```ts
 let num = 10;
+
+
 if(num > 5) {
 console.log("Greater than 5");
 }
 ```
 
-ESLint would likely flag it for improper indentation and use of whitespace, requiring a correction like this:
+ESLint would likely flag it for improper indentation, variable typing,  and use of whitespace, requiring a correction like this:
 
-```js
-let num = 10;
+```ts
+let num: number = 10;
 if (num > 5) {
   console.log("Greater than 5");
 }
 ```
 
-## Helpful features in ESLint
-One feature that significantly enhanced my experience with ESLint was configuring it to fix problems automatically. By enabling this feature, many of my errors were corrected without any manual intervention, which made my code more readable without the extra effort. This automation saved me a lot of time and frustration, allowing me to focus more on the logic of my code rather than its formatting.
+## Suggested Improvements for ESLint
+One improvement that significantly enhanced my experience with ESLint was configuring it to automatically fix problems. By enabling this feature, many of my errors were corrected without any manual intervention, which made my code more readable without the extra effort. This automation saved me a lot of time and frustration, allowing me to focus more on the logic of my code rather than its formatting.
 A feature I mentioned earlier that would make ESLint much more useful and easier to use is inline comments for errors. Instead of requiring a mouse hover, an inline comment could instantly show what’s wrong:
 
-```js
+```ts
 let x=5; // ESLint: Missing spaces around '='
 console.log(x);
 ```
@@ -71,10 +73,9 @@ console.log(x);
 This would speed up the debugging process and make it easier to clean up code without constantly pausing to inspect errors. Instead, you would be able to see and solve the problem immediately.
 
 ## Positive Experience with VSCode
-On the other hand, VSCode itself has been great. The integration with CoPilot makes coding faster and easier, though it did take some time to figure out how to properly run and view TypeScript code output through an HTML file. Installing all the necessary tools and extensions was tedious, but once everything was set up, the experience was smooth. 
+On the other hand, VSCode itself has been great. The integration with CoPilot makes coding faster and easier, though it did take some time to figure out how to properly run and view TypeScript code output through an HTML file. Installing all the necessary tools and extensions was tedious, but once everything was set up, the experience was smooth.
 
 ## Conclusion
 Overall, I see the value in coding standards, but my experience with ESLint has been mixed. Some of its rules make sense and improve code quality, but others just feel like unnecessary hoops to jump through. When it comes to AI-generated code, ESLint can turn what should be a time-saving process into extra work. Still, I recognize that enforcing standards does have long-term benefits, even if it’s frustrating in the moment.
 
 That being said, I’m hopeful that as I get more familiar with ESLint’s rules and configuration options, I’ll find a balance that maintains code quality without feeling overly restrictive. It might just take some time to get used to the workflow and figure out how to best integrate it into my coding process.
-
