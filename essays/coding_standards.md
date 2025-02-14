@@ -15,7 +15,7 @@ labels:
 # My Experience with ESLint and Coding Standards
 
 ## The Struggle with Coding Standards
-Coding standards are important, but they can be a real pain to stick to—especially in timed environments like the WOD (a timed coding assessment). While they definitely help with consistency and readability, enforcing them while trying to code quickly can feel like an unnecessary burden. It’s frustrating when you’re racing against the clock and get slowed down by minor formatting issues. That being said, I do see the long-term benefits, and they do help reinforce good habits, even if they can be annoying in the moment.
+Coding standards are important, but they can be a real pain to stick to, especially in timed environments like the WOD (a timed coding assessment). While they definitely help with consistency and readability, enforcing them while trying to code quickly can feel like an unnecessary burden. It’s frustrating when you’re racing against the clock and get slowed down by minor formatting issues. That being said, I do see the long-term benefits, and they do help reinforce good habits, even if they can be annoying in the moment.
 
 ## Frustrations with ESLint
 Take ESLint, for example. My experience with it so far has been frustrating. Setting it up was a long and painful process, and I’m still not entirely sure everything is working correctly. One of my biggest issues is that it doesn’t display error messages in an inline comment; instead, you have to hover over the error to see what’s wrong. This slows down the debugging and cleanup process significantly. I also find some of the rules unnecessary. Does it really matter if my indentation is 2 spaces or 4? Sure, consistency is good, but when rules feel like they exist just for the sake of existing, it can be annoying.
@@ -38,7 +38,7 @@ function example(): void {
 ```
 
 ## Issues with AI-Generated Code
-Another issue I’ve run into is ESLint’s interaction with AI-generated code. Tools like ChatGPT and Claude don’t produce code that adheres to ESLint’s standards, so if you use AI-generated snippets, you end up spending a ton of time just cleaning things up. This is especially frustrating when the AI-written code is functional but fails linting due to minor formatting issues. On the other hand, I guess this could be a good thing—it encourages me to write my own code instead of relying too much on AI.
+Another issue I’ve run into is ESLint’s interaction with AI-generated code. Tools like ChatGPT and Claude don’t produce code that adheres to ESLint’s standards, so if you use AI-generated snippets, you end up spending a ton of time just cleaning things up. This is especially frustrating when the AI-written code is functional but fails linting due to minor formatting issues. On the other hand, I guess this could be a good thing because it encourages me to write my own code instead of relying too much on AI.
 
 ### Example of AI-Generated Code
 For instance, most LLMs might generate this:
