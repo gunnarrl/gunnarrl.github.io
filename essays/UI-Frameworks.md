@@ -13,7 +13,7 @@ labels:
 
 # UI Frameworks: From Complexity to Creative Efficiency
 
-UI frameworks can seem intimidating at first—almost like learning a whole new programming language. But once you get past the initial learning curve, they become powerful tools that save time and reduce repetitive work. In my journey with Bootstrap 5, I discovered that the benefits far outweigh the initial hassle.
+UI frameworks can seem intimidating at first, almost like learning a whole new programming language. But once you get past the initial learning curve, they become powerful tools that save time and reduce repetitive work. In my journey with Bootstrap 5, I discovered that the benefits far outweigh the initial hassle.
 
 ## Discovering Bootstrap 5
 
@@ -46,10 +46,10 @@ To put Bootstrap 5 to the test, I created an imitation of the popular Wordle pag
 **Figure:** Right: Real Wordle page || Left: My imitation created using Bootstrap 5.
 <div style="display: flex; justify-content: center; gap: 20px;">
     <figure>
-        <img src="../img/real-wordle.png" alt="Real Wordle" width="300">
+        <img src="../img/real-wordle.png" alt="Real Wordle" width="500">
     </figure>
     <figure>
-        <img src="../img/my-wordle.png" alt="My Wordle Imitation" width="300">
+        <img src="../img/my-wordle.png" alt="My Wordle Imitation" width="500">
     </figure>
 </div>
 
