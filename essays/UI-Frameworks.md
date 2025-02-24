@@ -43,7 +43,7 @@ This simple code quickly sets up a three-column layout that adjusts seamlessly a
 
 To put Bootstrap 5 to the test, I created an imitation of the popular Wordle page. This project allowed me to explore the framework’s capabilities and see how quickly I could build a polished, responsive design. The results were impressive: consistent spacing, clean alignment, and a professional look that would have taken much longer to achieve with custom HTML and CSS alone.
 
-**Figure:** Right: Real Wordle page || Left: My imitation created using Bootstrap 5.
+**Figure:** Right: Real Wordle page | Left: My imitation created using Bootstrap 5
 <div style="display: flex; justify-content: center; gap: 20px;">
     <figure>
         <img src="../img/real-wordle.png" alt="Real Wordle" width="500">
