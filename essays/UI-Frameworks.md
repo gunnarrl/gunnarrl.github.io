@@ -9,7 +9,7 @@ labels:
   - UI Frameworks
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/typescript.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/bootstrap-logo.svg">
 
 # UI Frameworks: From Complexity to Creative Efficiency
 
