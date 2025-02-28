@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "UI Frameworks"
+title: "UI Frameworks: From Complexity to Creative Efficiency"
 # All dates must be YYYY-MM-DD format!
 date: 2025-02-24
 published: true
@@ -17,7 +17,7 @@ UI frameworks can seem intimidating at first, almost like learning a whole new p
 
 ## Discovering Bootstrap 5
 
-My first encounter with a UI framework was with Bootstrap 5. At first, the extensive documentation felt overwhelming. I spent hours scrolling through pages of icons, containers, and navbars just to figure out what I needed. Despite the steep learning curve, the experience was ultimately very rewarding.
+My first encounter with a UI framework was with Bootstrap 5. At first, the extensive documentation felt overwhelming. I spent a long time scrolling through pages of icons, containers, and navbars just to figure out what I needed. Despite the steep learning curve, the experience was ultimately very rewarding.
 
 One of the best features I found was the live preview in VSCode. Being able to see my changes instantly made a huge difference. It transformed the process of adjusting elements into an interactive experience, which is something you just can’t get when writing raw HTML and CSS from scratch.
 
@@ -61,7 +61,7 @@ Moreover, Bootstrap’s robust community support and comprehensive documentation
 
 ## Final Thoughts
 
-Overall, my experience with Bootstrap 5 has been incredibly positive. Despite the time spent poring over documentation and figuring out the nuances of its classes, I’ve found that the framework greatly enhances my productivity and creativity. It’s a great tool for UI design, and when paired with technologies like React, it can power some truly dynamic and responsive applications.
+Overall, my experience with Bootstrap 5 has been incredibly positive. Despite the time spent poring over documentation and figuring out the nuances of its classes, I’ve found that the framework greatly enhances my productivity and creativity. It’s a great tool for UI design, I am excited to pair it with technologies like React, to make some truly dynamic and responsive applications.
 
 For anyone considering diving into UI frameworks, my advice is to embrace the learning curve. The initial frustration is quickly replaced by the satisfaction of seeing your ideas come to life with efficiency and style.
 
