@@ -9,7 +9,8 @@ labels:
  - Software Engineering  
  - Nextjs  
 ---
-
+## Contributors:
+Gunnar L., Ryan T., Christian L., Lenox, Kawika N.
 ## Overview
 
 **The Problem:** 
