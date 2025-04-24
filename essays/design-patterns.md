@@ -10,7 +10,8 @@ labels:
   - Answers
   - StackOverflow
 ---
-<img style="width: 250px;" class="rounded float-start pe-4" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
+<img style="width: 400px !important;" class="rounded float-start pe-4" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
+
 
 # Navigating Complexity: Design Patterns in Manoa Compass
 
