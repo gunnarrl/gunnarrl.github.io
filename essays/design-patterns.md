@@ -10,7 +10,7 @@ labels:
   - Answers
   - StackOverflow
 ---
-<img width="250px" class="rounded float-start pe-4" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
+<img width="300px" class="rounded float-start pe-4" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
 # Navigating Complexity: Design Patterns in Manoa Compass
 
 Software development often involves tackling recurring problems. **Design patterns** are reusable, well-tested blueprints for solving these common challenges, promoting code reusability, maintainability, and better team communication. Think of them as a recipe for common building tasks but for software; this way, you don't have to start from scratch every time you open or join a new project. Instead, you can look at your "recipe book" (design patterns) and have an easy way to get started or up to speed.
