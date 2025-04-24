@@ -6,11 +6,10 @@ title: "Recipe to Success: Design Patterns"
 date: 2025-04-24
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Software Development
+  - Manoa Compass
 ---
-<img style="width: 400px !important;" class="rounded float-start pe-4" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
+<img style="width: 400px !important;" class="rounded float-start pe-5" src="https://img.freepik.com/free-vector/recipe-book-kitchenware_1284-35619.jpg?semt=ais_hybrid&w=740">
 
 
 # Navigating Complexity: Design Patterns in Manoa Compass
