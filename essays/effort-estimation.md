@@ -3,7 +3,7 @@ layout: essay
 type: essay  
 title: "Effort Estimation in my ICS314 Final Project"  
 # All dates must be YYYY-MM-DD format!  
-date: 2025-05-06
+date: 2025-05-11
 published: true
 labels:  
  - research  
