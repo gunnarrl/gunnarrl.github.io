@@ -1,7 +1,7 @@
 ---
 layout: essay  
 type: essay  
-title: "Reflections on AI in Software Engineering"  
+title: "Reflections on Software Engineering: Beyond Building Web Pages"  
 # All dates must be YYYY-MM-DD format!  
 date: 2025-05-14
 published: true
