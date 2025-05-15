@@ -8,47 +8,52 @@ published: true
 labels:  
  - Software Engineering  
 ---
+&#x20;Software Engineering: Beyond Building Web Pages
 
-# Reflections on Software Engineering: Beyond Building Web Pages
+\## I. Introduction
 
-## I. Introduction
+Upon commencing Software Engineering I, my initial assumption was that the course would primarily focus on the development of web applications, a perception reinforced by the utilization of a web-development technology stack and the creation of Manoa Compass as our final project. However, as the semester progressed and our team engaged more deeply with this project, a firsthand appreciation for fundamental software-engineering concepts, previously less considered, began to form. It became evident that practices such as coding standards, Agile project management, and configuration management possess a utility that extends far beyond web applications, proving valuable across the diverse spectrum of software development.
 
-When I started **Software Engineering I**, I assumed the course would focus primarily on developing web applications. We followed a web-development tech stack and created **Manoa Compass** as our final project. However, as we progressed, I gained firsthand experience with fundamental software-engineering concepts that I had previously overlooked. I realized that practices such as **coding standards**, **Agile project management**, and **configuration management** are valuable across all types of software development, not just web applications.
+\## II. Insights on Coding Standards
 
-## II. Insights on Coding Standards
+Initially, coding standards were perceived as guidelines primarily concerned with aesthetic code presentation, with the overriding priority being functional correctness. Early in the course, however, it became clear that coding standards are crucial for effective teamwork and the long-term maintainability of code quality. These standards represent a shared set of conventions for writing code consistently.
 
-Initially, I thought coding standards were simply about keeping code tidy. My priority was making my code run correctly. Early in the course, I discovered that coding standards are crucial for teamwork and maintaining code quality over time. These standards are shared rules for writing code consistently.
+For the Manoa Compass project, this was put into practice through tools like ESLint, configured via an \`.eslintrc.json\` file for the Airbnb style guide with additional rules for Next.js and TypeScript. This ESLint setup identified deviations in naming conventions and code structure, while a \`.prettierrc.json\` file managed automatic code formatting. The establishment of a uniform style greatly facilitated the comprehension and modification of code authored by different team members. Admittedly, adherence to ESLint warnings occasionally proved frustrating, as resolving one flagged issue could sometimes inadvertently introduce others. Despite this, the value of such tools is now well appreciated, and their use is anticipated for future collaborative or large-scale projects. For smaller, personal endeavors, however, a primary focus on functionality might precede rigorous linter compliance.
 
-For **Manoa Compass**, we used ESLint with an `​.eslintrc.json` configured for the Airbnb style guide, along with rules for Next.js and TypeScript. ESLint flagged naming issues and structural inconsistencies, while a `.prettierrc.json` file handled automatic formatting. Having a uniform style made reading and modifying teammates’ code much easier. Admittedly, dealing with ESLint warnings could be frustrating—fixing one issue sometimes introduced another. Despite this, I now appreciate its value and plan to use ESLint for collaborative or large-scale projects. For small personal projects, however, I may focus on functionality first and the linter later.
+\## III. Applying Agile and Issue-Driven Project Management
 
-## III. Applying Agile and Issue-Driven Project Management
+“Agile project management” was another term encountered prior to this course, though its practical implications were not fully understood. It is now recognized as an approach that structures work into small, flexible increments, adapting to changes as they arise, rather than rigidly adhering to a predefined long-term plan. In class, an effort was made to adopt Issue-Driven Project Management (IDPM), a specific Agile methodology that utilizes GitHub issues to delineate tasks, bugs, and feature requests. Correspondingly, Git branches were named using an \`issue-XXX\` convention to clearly link development work to specific tasks.
 
-“Agile project management” was another term I had heard but never fully understood. I now see it as an approach that breaks work into small, flexible increments and adapts as needs change. In class, we adopted **Issue-Driven Project Management (IDPM)**, which uses GitHub issues for tasks, bugs, and feature requests. We named our branches `issue-XXX` to match each task.
+The decomposition of large features into well-defined, granular issues presented a notable challenge; at times, our issues lacked precise goals or detailed specifications, which occasionally led to ambiguity during implementation. For example, tasks described simply as "implement event backend" offered insufficient guidance. This experience underscored the importance of formulating precise, agreed-upon issue descriptions. On a positive note, the IDPM approach has proven effective in my current research on automating code reviews with large language models; dividing this complex project into smaller, distinct issues has significantly streamlined the development and testing of individual components. The principles of IDPM are clearly not limited to web development and could be beneficially applied to structure diverse complex endeavors, such as laboratory experiments or extensive research papers.
 
-Breaking large features into well-defined issues was challenging—sometimes our issues lacked clear goals or specifications, leading to confusion. I learned the importance of writing precise, agreed-upon issue descriptions. This semester, I applied IDPM to my research on automating code reviews with large language models. Dividing the project into granular issues made it easier to develop and test each component. IDPM is not limited to web development; it could structure laboratory experiments or any complex endeavor.
+\## IV. Embracing Configuration Management
 
-## IV. Embracing Configuration Management
+Configuration management, while perhaps a less salient topic, proved to be an essential discipline. It involves the systematic tracking and control of settings, tools, and component versions necessary to ensure that software operates consistently across various environments.
 
-Configuration management might sound mundane, but it proved essential. It involves tracking the settings, tools, and versions needed to ensure software runs consistently everywhere.
+Early in the Manoa Compass project, inconsistencies in individual database schemas and library versions among team members led to integration challenges and necessitated code revisions. These issues were largely resolved by implementing more rigorous configuration management practices, including:
 
-Early in the Manoa Compass project, inconsistencies in database schemas and library versions caused our code to break. We resolved this by:
+\-   Consolidating project dependencies and their specific versions within the \`package.json\` file.
 
-- Consolidating dependencies in `package.json`
-- Synchronizing TypeScript settings in `tsconfig.json`
-- Standardizing test configuration in `playwright.config.ts`
-- Automating builds with `.github/workflows/ci.yml`
-- Configuring deployment with `vercel.json`
+\-   Synchronizing TypeScript compiler settings through a shared \`tsconfig.json\`.
 
-Although setting up and maintaining these files can be time-consuming, the payoff is a stable, reproducible development environment. For large teams or long-term projects, configuration management is indispensable; for smaller personal efforts, it can feel like overkill but remains a helpful discipline.
+\-   Standardizing the testing environment configuration using \`playwright.config.ts\`.
 
-## V. Broader Impact on My Approach
+\-   Automating build and test processes via a \`.github/workflows/ci.yml\` file.
 
-Using coding standards, issue-driven project management, and configuration management completely changed how I think about software development. I used to treat coding as just giving instructions to a computer. Now, I see it more as writing for other people—making sure my code is readable, flexible, and dependable no matter where it’s run. Even though Manoa Compass was a web project, these lessons apply to any serious software project.
+\-   Defining environment-specific settings, such as local development data in \`config/settings.development.json\`.
 
-## VI. Challenges and Future Directions
+\-   Configuring deployment parameters and scheduled tasks, like cron jobs for data scraping, using \`vercel.json\`.
 
-Adopting these practices required overcoming a learning curve. Learning new languages, frameworks, linters, issue trackers, and configuration files can be overwhelming. It is tempting to prioritize getting code to work and postpone these processes. Yet I recognize that forming these habits early makes future collaboration and maintenance far easier. Although these tools may slow initial development, they provide long-term benefits by improving code quality and project organization.
+Although the initial setup and ongoing maintenance of these configuration files can be time-consuming, the resulting stability and reproducibility of the development environment are significant. For large teams or long-term projects, meticulous configuration management is indispensable. For smaller personal efforts, while the full extent of these practices might seem substantial, the underlying discipline remains beneficial.
 
-## VII. Conclusion
+\## V. Broader Impact on My Approach
 
-**Software Engineering I** offered much more than the creation of Manoa Compass. The key lessons I will carry forward are the significance of coding standards, the structure of issue-driven work management, and the necessity of configuration management. These skills extend well beyond web projects and form the foundation of professional software engineering. I am confident that they will guide me in any development effort I undertake in the future.
+The application of coding standards, issue-driven project management, and configuration management has fundamentally reshaped my perspective on software development. Previously, the act of coding was viewed primarily as instructing a computer to perform tasks. It is now understood more as a form of communication, emphasizing readability for other developers, adaptability to change, and operational consistency across diverse environments. Although Manoa Compass was a web-based project, these engineering principles are pertinent to any serious software undertaking.
+
+\## VI. Challenges and Future Directions
+
+Adopting these software engineering practices necessitated overcoming an initial learning curve. When simultaneously acquiring new programming languages and frameworks, the additional layers of linters, issue trackers, and configuration files can appear overwhelming. It is often tempting to prioritize immediate functionality and defer adherence to these structured processes. Yet, it is increasingly evident that cultivating these habits early in one's development journey significantly facilitates future collaboration and long-term project maintainability. While these tools and methodologies may occasionally seem to slow initial development, their long-term contributions to code quality and project organization are substantial.
+
+\## VII. Conclusion
+
+Software Engineering I offered considerably more than the technical skills required for the creation of the Manoa Compass application. The enduring lessons from this course are centered on the significance of robust coding standards, the structured approach of issue-driven work management, and the critical necessity of thorough configuration management. These competencies extend well beyond the domain of web projects and form a crucial part of the foundation for professional software engineering. It is anticipated that these principles will provide valuable guidance in any future development efforts undertaken.
