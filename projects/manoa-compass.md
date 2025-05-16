@@ -26,13 +26,14 @@ This project was a valuable learning experience, allowing me to deepen my skills
 
 ## Screenshots
 
-| AI-Powered Suggestions / Dashboard                         | Profile Page                                       |
-| ----------------------------------------------------------- | ----------------------------------------------------------- |
-| ![Dashboard Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/event_suggestion.png) | ![Profile Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/profile_final.png) |
+| **AI-Powered Suggestions / Dashboard**                       | **Profile Page**                                            |
+| ------------------------------------------------------------- | ----------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/event_suggestion.png" alt="Dashboard" width="400px"> | <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/profile_final.png" alt="Profile" width="400px"> |
 
-| Admin: Run Web Scraping                                    | Admin: Manage Events                                               |
-| ----------------------------------------------------------- | ----------------------------------------------------------- |
-| ![Run Web Scraping Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_scraping.png) | ![Manage Events Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_manage_events.png) |
+| **Admin: Run Web Scraping**                                  | **Admin: Manage Events**                                    |
+| ------------------------------------------------------------- | ----------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_scraping.png" alt="Web Scraping" width="400px"> | <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_manage_events.png" alt="Manage Events" width="400px"> |
+
 
   
 ## Source Code & More
