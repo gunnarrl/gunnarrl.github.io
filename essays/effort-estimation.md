@@ -10,7 +10,7 @@ labels:
  - Project Management
 ---
 
-## Effort Estimation in ICS 314 Final Projet
+## Effort Estimation in ICS 314 Final Project
 
 ### 1. How did you guess how long tasks would take?
 
