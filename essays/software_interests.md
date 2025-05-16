@@ -4,7 +4,7 @@ type: essay
 title: "Code, Corn, and Checkers: My Adventures in Tech"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-21
-published: true
+published: false
 labels:
   - Software Engineering
 ---
