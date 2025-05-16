@@ -4,7 +4,7 @@ type: essay
 title: "Manoa Compass Proposal"  
 # All dates must be YYYY-MM-DD format!  
 date: 2025-04-01  
-published: true
+published: false
 labels:  
  - Software Engineering  
  - Nextjs  
