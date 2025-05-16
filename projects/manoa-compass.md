@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/checkers2.jpg
+image: img/manoa-compass.jpg
 title: "Manoa Compass"
 date: 2025
 published: true
@@ -27,14 +27,14 @@ This project was a valuable learning experience, allowing me to deepen my skills
 ## Screenshots
 
 * **AI-Powered Suggestions/Dashboard:**
-    ![Dashboard Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/event_suggestion.png)
+  <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/event_suggestion.png" alt="Dashboard Screenshot" width="600px">
 
 * **Admin Page Interface:**
-    ![Manage Events Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_manage_events.png)
-    ![Run Web Scraping Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_scraping.png)
+  <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_manage_events.png" alt="Manage Events Screenshot" width="600px">
+  <br> <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/admin_scraping.png" alt="Run Web Scraping Screenshot" width="600px">
 
 * **Profile Page:**
-    ![Profile Screenshot](https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/profile_final.png)
+  <img src="https://raw.githubusercontent.com/manoa-compass/manoa-compass.github.io/main/imgs/profile_final.png" alt="Profile Screenshot" width="600px">
   
 ## Source Code & More
 
