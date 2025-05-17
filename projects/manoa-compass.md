@@ -18,7 +18,7 @@ summary: "Created an app that will have AI suggest events for you to attend on c
 
 Manoa Compass is a dynamic web application designed to enhance student life at the University of Hawaii at Manoa (UHM) by connecting students with campus clubs and events. The platform aims to be a personalized guide, helping students discover opportunities aligned with their interests. Key features include a dashboard with event and club listings, user profile management with interest selection, and AI-powered recommendations to suggest relevant activities. The application also incorporates an administrative backend for content management, user oversight, and system operations, including automated web scraping to keep club and event information up-to-date.
 
-As a developer on this project, I was instrumental in implementing several core functionalities. My primary contributions included the development of the **AI-powered suggestions** feature, leveraging Google's Generative AI to provide users with personalized event and club recommendations. I also engineered the **web scraping capabilities** for automatically gathering and categorizing club and event data from various sources, ensuring the platform's content remains fresh and comprehensive. Furthermore, I developed the **Admin page**, providing administrators with tools to manage content (events and clubs), users, categories, and oversee background jobs for data import and processing.
+As a developer on this project, I was instrumental in implementing several core functionalities. My primary contributions included the development of the AI-powered suggestions feature, leveraging Google's Generative AI to provide users with personalized event and club recommendations. I also engineered the web scraping capabilities for automatically gathering and categorizing club and event data from various sources, ensuring the platform's content remains fresh and comprehensive. Furthermore, I developed the Admin page, providing administrators with tools to manage content (events and clubs), users, categories, and oversee background jobs for data import and processing.
 
 ## What I Learned
 
@@ -41,3 +41,7 @@ This project was a valuable learning experience, allowing me to deepen my skills
 For those interested in diving deeper into the technical aspects or viewing the source code, please visit the project's GitHub Organization page:
 
 [Link to Manoa Compass GitHub Organization](https://github.com/manoa-compass)
+
+If you want to try it out yourself, visit the deployment page:
+
+[Link to Deployed Manoa Compass](https://manoa-compass-code-theta.vercel.app/)
