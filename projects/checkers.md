@@ -4,7 +4,7 @@ type: project
 image: img/checkers2.jpg
 title: "Checkers vs. AI"
 date: 2024
-published: true
+published: false
 labels:
   - Machine Learning
   - Games
